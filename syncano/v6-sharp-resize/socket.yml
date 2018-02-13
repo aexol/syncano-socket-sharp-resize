@@ -1,0 +1,11 @@
+name: v6-sharp-resize
+description: Description of v6-sharp-resize
+version: 0.0.1
+runtime: nodejs_v6
+endpoints:
+  resize:
+    description: Resize image using sharp.
+    parameters:
+      file:
+        type: file
+        description: PNG image

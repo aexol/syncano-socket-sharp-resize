@@ -1,0 +1,11 @@
+name: v8-sharp-resize
+description: Description of v8-sharp-resize
+version: 0.0.1
+runtime: nodejs_v8
+endpoints:
+  resize:
+    description: Resize image using sharp.
+    parameters:
+      file:
+        type: file
+        description: PNG image
